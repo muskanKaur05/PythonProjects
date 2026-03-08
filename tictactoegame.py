@@ -144,9 +144,10 @@ button9 = Button(frame2,text=" ",width=3 , height=1,font=("Arial",35),bg="yellow
 button9.grid(row=2,column=2)
 button9.bind("<Button-1>",play)
 
-restartButton = Button(frame2, text="Restart Game",width=12, height=1,font=("Arial",20),bg="green",relief=RAISED,borderwidth=2,command=restartGame)
+restartButton = Button(frame2, text="Restart Game",width=17, height=1,font=("Arial",20),bg="green",relief=RAISED,borderwidth=2,command=restartGame)
 restartButton.grid(row=3,column=0,columnspan=3)
 
 buttons=[button1,button2,button3,button4,button5,button6,button7,button8,button9]
+
 
 root.mainloop()
